@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Compassion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">💚 Compassion</a>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    <nav id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="importance.html">Importance</a>
+        <a class="active" href="contact.html">Contact</a>
+    </nav>
+
+    <button class="theme-btn" onclick="toggleTheme()">🌙</button>
+</header>
+
+<section class="page-hero">
+    <span class="tag">LET'S CONNECT 💚</span>
+    <h1>Contact Us</h1>
+    <p>We would love to hear from you!</p>
+</section>
+
+<section class="contact-section">
+
+    <div class="contact-info">
+        <h2>Spread Love. Share Hope.</h2>
+
+        <p>
+            A small act of kindness can make a big difference.
+            Join us in creating a caring community.
+        </p>
+
+        <p>❤️ Show kindness</p>
+        <p>🤝 Help someone</p>
+        <p>🌍 Make your community better</p>
+
+        <h3>Our Message</h3>
+        <p>Together We Care, Together We Grow.</p>
+    </div>
+
+    <form id="contactForm">
+
+        <h2>Send Us a Message 💌</h2>
+
+        <label for="name">Your Name</label>
+        <input type="text" id="name"
+            placeholder="Enter your name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email"
+            placeholder="Enter your email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message"
+            placeholder="Write your message..."
+            required></textarea>
+
+        <button type="submit" class="main-btn">
+            Send Message 💚
+        </button>
+
+        <p id="formMessage"></p>
+
+    </form>
+
+</section>
+
+<footer>
+    <h2>💚 Compassion</h2>
+    <p>Together We Care, Together We Grow.</p>
+    <p>© 2026 Compassion Project. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
